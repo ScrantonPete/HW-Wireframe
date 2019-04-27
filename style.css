@@ -1,5 +1,4 @@
 * {
-    /* box-sizing: border-box; */
     text-align: center;
   }
   body{
@@ -8,65 +7,67 @@
       width: 960px;
       font-size: 18px;
       color: 777;
-      line-height: 95px;
       margin: 0 auto;
   }
   
   header, nav, section, aside, footer{
-      background: #ebebeb;
-      text-align: center;
-      
-  }
-
-  article {
-      color: #ebebeb;
-      background: #777;
-      width: 495px;
-      height: 195px;
-      margin: 10px;
-  }
-  
-  h1, p {
-      color: #777;
-      background: #ebebebeb;
-      
-  }
-
-  section{
-      width: 515px;
-      height: 290px;
-      float: left;
-      color: gray;
-  }
-
-  aside{
-      float: right;
-      color: gray;
-      width: 405px;
-      height: 290px;
+      background: #ebebeb; 
   }
 
   header{
-      padding: 20px;
-      margin-bottom: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+    color: gray;
+}
+
+nav{
+    padding: 20px;
+    margin-bottom: 25px;
+    color: gray;
+}
+
+section{
+    width: 515px;
+    height: 270px;
+    float: left;
+    color: gray;
+    padding-top: 20px;
+}
+
+article {
+    color: #ebebeb;
+    background: #777;
+    width: 495px;
+    height: 195px;
+    margin: 10px;
+    margin-top:30px;
+    padding-top: 10px;
+}
+
+h1, p {
+    color: #777;
+    background: #ebebebeb;
+    padding-top: 25px;
+    height: 40px;
+    margin: 10px;
+   
+}
+   
+aside {
+      float: right;
       color: gray;
+      width: 405px;
+      height: 270px;
+      padding-top: 20px;
   }
 
-  nav{
-      padding: 20px;
-      margin-bottom: 25px;
-      color: gray;
-  }
-
-  footer{
+   footer{
       color: gray;
       clear: both;
-      position: fixed;
+      position: relative;
       bottom: 0;
       left: 0;
-      width: 100%;
-  }
-  h1 {
-     height: 50px;
-     width: 450px;
+      width: 920px;
+      padding: 20px;
+      margin-top: 340px;
   }
